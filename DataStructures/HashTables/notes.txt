@@ -1,0 +1,18 @@
+Hash Tables
+    It is a data structure which has a key value pair
+    Dictionray is an implementation of the hash table data structure in python
+
+HAshing(hash functions)
+    In a has table a new index is processed using the keys and the 
+    elemtn corresponding to that key is stored in the index 
+    This process is called hashing 
+
+Hash Collision
+    When the hash function generates the same index for multiple keys ther wil be a conflict 
+    THis is called Hash collission
+
+    Solution
+
+    Collisson resolution by chaining 
+        In chaining, if ahash function produces the same index for multiple 
+        elements, these elemts are stored in a doubly linked list

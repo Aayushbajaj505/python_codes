@@ -1,0 +1,8 @@
+{
+    "git.ignoreLimitWarning": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "python.pythonPath": "C:\\Users\\Aayush\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.formatting.provider": "autopep8",
+    "python.linting.mypyEnabled": true
+}

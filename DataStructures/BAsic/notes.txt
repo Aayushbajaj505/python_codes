@@ -1,0 +1,22 @@
+Multiple Ways of solving PRoblems:
+    1. Divide and conqer:
+        Merge sort
+        Quick sort
+        Binary Search 
+        Strassens Matrix Multiplication
+        Closet pair 
+    
+    2. Dynammic programming:
+        similar to previous but each sub problems are not solved independently
+        rather results of the sub problems are remebered  used for similar or 
+        overlaping sub problems.
+
+        Dynamic algorithsm use memoization
+
+        Fibonnaci number series 
+        Knapsack problems
+        Tower of hanoi
+        All pair of shortest path by Floyd-Warshall
+        Shortest path by DIjkstra
+        PRject scheduling
+
