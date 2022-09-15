@@ -168,7 +168,6 @@ class LinkedList:
             fast = fast.next.next
 
         return slow
-        # print("THe middle element is", slow.data)
 
     def delete_middle(self):
         # intialzie two pointers
@@ -243,13 +242,16 @@ class LinkedList:
         return
 
     def reverse(self):
-        itr = self.head
-        while itr:
-            self.insertAtBegi(itr.data)
-            itr = itr.next
-        temp = self.get_middle()
-        temp.next = None
-        return
+        curr=self.head
+        prev,next=None
+        while curr:
+            next=curr.next
+            curr.next = prev
+            prev=curr
+            curr = next
+            
+            
+        
 
 
 if __name__ == '__main__':
